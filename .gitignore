@@ -11,6 +11,7 @@ yarn-error.log*
 
 # Ignore environment-specific files
 .env
+.env.local
 
 # Ignore macOS specific files
 .DS_Store

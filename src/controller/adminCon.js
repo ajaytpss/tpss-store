@@ -1,6 +1,7 @@
 const admin = require("../models/admin");
 
 const adminSignup = async (req, res) => {
+  const tb = "kas";
   try {
     const checkAdmin = admin.find({
       email: req.body.email,

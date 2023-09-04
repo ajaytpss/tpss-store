@@ -10,6 +10,7 @@ yarn-error.log*
 /out/
 
 # Ignore environment-specific files
+.env
 .env.local
 
 # Ignore macOS specific files
